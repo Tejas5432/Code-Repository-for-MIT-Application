@@ -1,7 +1,8 @@
 import sys
 from pathlib import Path
-import re, json, numpy as np, pandas as pd
-
+import re, json
+import pandas as pd
+import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from lib import paths

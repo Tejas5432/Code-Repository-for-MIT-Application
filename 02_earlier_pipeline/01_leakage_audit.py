@@ -10,7 +10,6 @@ import xgboost as xgb
 import lightgbm as lgb
 from catboost import CatBoostClassifier
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-
 from lib import paths
 
 warnings.filterwarnings("ignore")
